@@ -15,3 +15,13 @@ Long notations;
 Short Notation:
 `animation: duration | easing-function | delay |
 iteration-count | direction | fill-mode | play-state | name `
+
+2. How do you add keyframes to an animation?
+
+By adding more percent parts to the keyframes.
+
+3. When would you use an animation over a transition (and vice versa)?
+
+Use an animation when you need more fine grain control over the
+middle states of the animation or when it's infinite, use a
+transition when it's just one move with a definite beginning and end.
